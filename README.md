@@ -1,4 +1,4 @@
-# 🐧 Debian Linux Training: Freelance & Career Bootcamp
+# Debian Linux Training: Freelance & Career 
 
 🚀 **Master Debian Linux, Build Production-Ready Servers, and Land Remote Jobs!**
 
