@@ -1,74 +1,111 @@
-# Debian Linux Training: Freelance & Career 
+# Debian Linux Server Administration Bootcamp
+**School of Freelancing**
 
-🚀 **Master Debian Linux, Build Production-Ready Servers, and Land Remote Jobs!**
+| | |
+|---|---|
+| **Price** | $250 |
+| **Duration** | 2 Weeks (20 Hours) |
+| **Format** | Hands-on, live/recorded sessions + guided labs |
+| **Outcome** | Deploy production Debian servers + land freelance/direct clients |
 
-Welcome to the premium, hands-on Debian Linux Training program. This course is specifically structured to transform you from a beginner into a job-ready Linux System Administrator capable of handling real-world projects on top freelance platforms.
+## Who This Is For
+Beginners to intermediate Linux users who want job-ready Debian server admin skills and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach.
 
----
+## Participation Requirements
 
-## 📊 Course Overview
-* 💰 **Investment:** $250
-* ⏱️ **Duration:** 2 Weeks
-* ⏳ **Total Hours:** 20 Training Hours (Live Labs + Guided Exercises)
-* 🛠️ **Format:** 100% Hands-on, Script-Free (Command & Concept Based)
-* 🎯 **Target Market:** Upwork, Freelancer.com, Guru.com, and LinkedIn Direct Clients
+### Training Prerequisites
+- **[DigitalOcean](https://try.digitalocean.com/freetrialoffer/):** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
+- **Domain:** Any domain or sub domain will work.
+- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
+- **Land Direct Clients:** From LinkedIn and YouTube Account.
+- **Rigorous:** Need to have patience and concentration during all training sessions.
 
----
+### Connectivity
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## 💼 Career Outcomes & Job Market Value
-By completing this 20-hour intensive bootcamp, you will be equipped to apply for and successfully execute the following real-world client projects:
-
-* **Web Server Deployment:** Setting up high-performance LAMP/LEMP stacks for client websites.
-* **Server Migration:** Migrating applications and databases safely to Debian environments.
-* **Security & Hardening:** Securing raw Debian servers against cyber threats and unauthorized access.
-* **SSL & Domain Management:** Configuring reverse proxies (Nginx/Apache) with Let's Encrypt SSL.
-* **System Monitoring:** Setting up tracking tools to monitor server health and uptime.
-
----
-
-## 🗺️ 2-Week Intensive Curriculum
-
-### 📅 Week 1: Core Administration & Environment Setup (10 Hours)
-* **Day 1-2: Groundwork & Navigation**
-  * Installing Debian 12 (Bookworm) on cloud providers (DigitalOcean/AWS/Hetzner).
-  * SSH Key Authentication setup (Goodbye passwords, hello security!).
-  * Mastering the filesystem layout and non-destructive navigation.
-* **Day 3-4: User Management & Permissions**
-  * Implementing Privilege Escalation safely (`sudo` configurations).
-  * File permissions (`chmod`, `chown`) and Access Control Lists (ACLs).
-* **Day 5: Storage & Package Management**
-  * Managing repositories, fixing broken dependencies using `apt`.
-  * Disk partitioning, mounting storage blocks, and tracking disk space.
-
-### 📅 Week 2: Production Services, Security & Freelance Launch (10 Hours)
-* **Day 6-7: Production Server Deployment (The Money Skills)**
-  * Deploying Apache/Nginx web servers from scratch.
-  * Database configuration (MySQL/MariaDB) and basic user grants.
-  * Configuring PHP-FPM and hosting multiple websites on a single server (Virtual Hosts).
-* **Day 8-9: Firewall, Security & Monitoring**
-  * Setting up Uncomplicated Firewall (`ufw`) and closing vulnerable ports.
-  * Installing `Fail2ban` to automatically block brute-force attackers.
-  * Reading system logs (`journalctl`, `/var/log/*`) to troubleshoot live server crashes.
-* **Day 10: Marketplace Strategy & Client Acquisition**
-  * **Upwork & Freelancer:** Crafting winning proposals for "Linux Server Setup" jobs.
-  * **Guru.com:** Building a specialized Linux SysAdmin profile.
-  * **LinkedIn:** Optimizing your profile for inbound direct client leads using targeted keywords.
+### Training Rules
+- These [Training Rules ("Ground Rules")](/legal/training-rules/) apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ---
 
-## 🛠️ Practical Projects You Will Build
-To pass this course, you must complete these real-world milestone projects:
-1. **Project 1:** Deploy a secure, production-ready WordPress site on a raw Debian server with SSL encryption.
-2. **Project 2:** Audit a broken, unoptimized server, fix permission issues, and secure it using a custom firewall policy.
+## Curriculum: 10 Sessions x 2 Hours (20 Hours Total)
+
+### Week 1 — Core Debian Server Skills
+
+**Session 1: Linux & Debian Fundamentals (2h)**
+- Linux architecture, distros overview, why Debian for servers
+- Installing Debian (VM + cloud VPS via DigitalOcean/Vultr)
+- Filesystem hierarchy, basic shell navigation
+- **Lab:** Spin up a Debian 12 VPS, SSH in
+
+**Session 2: Linux Command Line Mastery (2h)**
+- File/directory management, permissions (chmod/chown), users & groups
+- Package management: apt, dpkg
+- Process management, systemd basics
+- **Lab:** User/group setup, install & manage packages, systemctl practice
+
+**Session 3: Networking & Remote Access (2h)**
+- SSH hardening (key auth, disabling root/password login, custom port)
+- Networking basics: netstat, ss, ip, DNS, /etc/hosts
+- UFW firewall configuration
+- **Lab:** Harden SSH, configure UFW rules on live server
+
+**Session 4: Web Server Deployment (2h)**
+- Installing & configuring Nginx (and Apache basics)
+- Virtual hosts / server blocks
+- Deploying a static site + a simple app
+- **Lab:** Host 2 websites on one server using server blocks
+
+**Session 5: SSL, Domains & Security Basics (2h)**
+- DNS records (A, CNAME) and domain pointing
+- Let's Encrypt / Certbot SSL setup
+- Fail2ban, automatic security updates
+- **Lab:** Attach a real domain, enable HTTPS, configure Fail2ban
+
+### Week 2 — Production Skills & Freelance Readiness
+
+**Session 6: Databases & Backend Services (2h)**
+- Installing MySQL/MariaDB or PostgreSQL
+- Basic DB management, backups (mysqldump/pg_dump)
+- Installing Node.js/Python runtime for app hosting
+- **Lab:** Deploy a database-backed app behind Nginx reverse proxy
+
+**Session 7: Docker on Debian (2h)**
+- Docker & Docker Compose installation
+- Container basics, images, volumes, networks
+- Deploying multi-container stacks
+- **Lab:** Deploy a Dockerized app with Nginx reverse proxy
+
+**Session 8: Monitoring, Backups & Maintenance (2h)**
+- Server monitoring (htop, disk usage, logs via journalctl)
+- Automated backups (cron + rsync/rclone to remote storage)
+- Log rotation, uptime monitoring basics
+- **Lab:** Set up automated backup script + cron schedule
+
+**Session 9: Client Project Simulation (2h)**
+- Full end-to-end task: fresh VPS → domain → SSL → app → database → backup
+- Troubleshooting common client issues (site down, disk full, permission errors)
+- Documentation & handover practices (client-ready reports)
+- **Lab:** Complete a timed "client ticket" simulation
+
+**Session 10: Freelance Client Acquisition (2h)**
+- Building winning Upwork/Freelancer.com/Guru.com profiles & portfolios
+- Writing proposals that win Debian/Linux server gigs
+- Pricing your services (hourly vs fixed-price gigs)
+- LinkedIn strategy: optimizing profile, outreach scripts, content posting for direct clients
+- **Final Assessment:** Submit 1 Upwork proposal + 1 LinkedIn outreach message (reviewed live)
 
 ---
 
-## 🚀 How to Enroll & Get Started
-1. Clone this repository to access all step-by-step documentation and lab guides.
-2. Ensure you have a free account on **DigitalOcean** or **AWS** (Free Tier) for live practice.
-3. Review the daily modules and complete the hands-on tasks independently.
+## Deliverables Upon Completion
+- A live portfolio project (your own hardened, SSL-secured, Dockerized server)
+- Ready-to-use Upwork/Freelancer/Guru profile & proposal templates
+- LinkedIn outreach message templates for direct client acquisition
+- Access to School of Freelancing community for ongoing support
 
----
+## Tools & Platforms Covered
+Debian 12, SSH, UFW, Nginx, Certbot/Let's Encrypt, Fail2ban, MySQL/PostgreSQL, Docker & Docker Compose, systemd, cron, Upwork, Freelancer.com, Guru.com, LinkedIn
 
-## 📄 License & Terms
-This training syllabus and documentation are proprietary. Unauthorized commercial distribution is strictly prohibited.
+## Instructor
+Karim — Senior Linux & Cloud Infrastructure Security Engineer, Founder of School of Freelancing, Bangladesh Government-Verified Freelancer
